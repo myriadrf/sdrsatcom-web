@@ -35,7 +35,7 @@ plugins:
 # Includes
 
 include:
-  - _redirects
+  - _site/_redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
