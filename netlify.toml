@@ -1,4 +1,4 @@
 [[redirects]]
   from = "https://sdrsatcom.netlify.com/*"
-  to = "/:splat"
+  to = "https://sdrsat.com/:splat"
   force = true
