@@ -1,0 +1,5 @@
+en: &DEFAULT_EN
+  follow_label               : " "
+
+en-GB:
+  <<: *DEFAULT_EN

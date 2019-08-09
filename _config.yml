@@ -14,28 +14,59 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+locale: "en-GB"
+timezone: Europe/London
 title: SDR Satcom
+description: "Software-Defined Radio Satellite Communications."
 email: sdrsatcom@myriadrf.org
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://sdrsat.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+logo: "/assets/images/site-logo.png"
+masthead_title: " "
+
+comments:
+  provider: "discourse"
+  discourse:
+    server: discourse.myriadrf.org
+
+twitter:
+  username: "myriadrf"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-5468815-10"
+    anonymize_ip: false # default
+
+#include: [_pages]
+
+# Site Footer
+footer:
+  links:
+    - label: "Forum"
+      icon: "fab fa-fw fa-discourse"
+      url: "https://discourse.myriadrf.org/c/projects/sdr-satcom"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/myriadrf"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/myriadrf"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/myriadrf/"
+
 
 # Build settings
+
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
   - jekyll-feed
-
-# Includes
-
-include:
-  - _site/_redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
