@@ -48,16 +48,6 @@ footer:
     - label: "Forum"
       icon: "fab fa-fw fa-discourse"
       url: "https://discourse.myriadrf.org/c/projects/sdr-satcom"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/myriadrf"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/myriadrf"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/myriadrf/"
-
 
 # Build settings
 

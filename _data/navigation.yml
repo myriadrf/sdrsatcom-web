@@ -3,5 +3,9 @@ main:
     url: /#app-store
   - title: "Developer Hardware"
     url: /#developer-hardware
+  - title: "Documentation"
+    url: https://wiki.myriadrf.org/SDR_Satcom_App_Store
+  - title: "Forum"
+    url: https://discourse.myriadrf.org/c/projects/sdr-satcom
   - title: "Contact"
     url: /#contact
