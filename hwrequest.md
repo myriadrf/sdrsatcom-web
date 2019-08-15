@@ -30,8 +30,8 @@ to a GitHub/GitLab or similar profile/repository which will provide this, along
 with a suitably detailed description of the proposed project.
 
 Finally, if you have no relevant prior experience, but are keen to contribute,
-we recommend that you contact an existing project and have them make an
-application on your behalf. 
+we recommend that you contact an existing project with a view to becoming a
+contributor and see if they will make an application on your behalf. 
 
 # Process
 
@@ -77,7 +77,7 @@ required /></label>
 
 # Terms and Conditions 
 
-The [MyriadRF Competions Terms & Conditions][4] apply.
+The [MyriadRF Competions Terms & Conditions][5] apply.
 
 [1]:https://myriadrf.org/projects/component/limesdr-mini/
 [2]:https://opensource.org/osd
