@@ -98,7 +98,7 @@ GEM
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
@@ -114,4 +114,3 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
-
